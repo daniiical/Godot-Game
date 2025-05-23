@@ -16,3 +16,8 @@ shape = SubResource("CircleShape2D_jix8l")
 [node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
 position = Vector2(439, 213)
 texture = ExtResource("2_fu7sn")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_right = 279.0
+offset_bottom = 170.0
+text = "Inventory"
