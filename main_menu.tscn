@@ -23,3 +23,12 @@ texture = ExtResource("2_fu7sn")
 offset_right = 273.0
 offset_bottom = 150.0
 text = "inventory"
+
+[node name="Node2" type="Node" parent="."]
+
+[node name="TextEdit" type="TextEdit" parent="Node2"]
+offset_left = 9.0
+offset_top = 239.0
+offset_right = 260.0
+offset_bottom = 501.0
+text = "2nd test"
