@@ -14,3 +14,11 @@ config/name="Share File"
 run/main_scene="uid://bx8nivygl6cjt"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
