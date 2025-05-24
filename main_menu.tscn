@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bx8nivygl6cjt"]
 
 [ext_resource type="Texture2D" uid="uid://tgbqjfs3yrmt" path="res://Game Boy Advance - Metroid Zero Mission - Samus Aran Power Suit.png" id="1_06t4h"]
-[ext_resource type="Script" uid="uid://b4sixq5brlau" path="res://main_menu.gd" id="1_7vrkn"]
+[ext_resource type="Script" path="res://main_menu.gd" id="1_7vrkn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7vrkn"]
 atlas = ExtResource("1_06t4h")
