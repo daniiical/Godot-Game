@@ -3,9 +3,11 @@ extends CharacterBody2D
 
 var movement = Vector2()
 var speed = 300
-
+var current_direction = "Idle"
 
 @onready var anim = $samus_anim
+
+@onready var stand_col
  
 
 func _ready():
@@ -15,6 +17,7 @@ func _ready():
 func _physics_process(delta):
 		
 		player_movement()
+		animation_player()
 		
 		
 		movement = movement.normalized() * speed * delta  
@@ -45,8 +48,22 @@ func player_movement():
 		velocity.y = 0
 	
 func animation_player():
-
-	pass
+	
+	if movement.x == 1:
+			stand_col.position = Vector2(4,1)
+			current_direction = "Left"
+			
+	if movement.x == -1:
+		stand_col.position = Vector2(4,1)
+		current_direction = "Right"
+	
+	if current_direction == "Left":
+		
+		anim.play_backwards("Run Left")
+		
+	if current_direction == "Right":
+		
+		anim.play_backwards("Run Right")
 	
 
 func fire_weapon ():

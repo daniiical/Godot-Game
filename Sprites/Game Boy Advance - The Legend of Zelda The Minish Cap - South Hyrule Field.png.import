@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://43pa6oj2tl1y"
-path="res://.godot/imported/Game Boy Advance - Metroid Zero Mission - Samus Aran Power Suit.png-e727185fa8f37f8e749f07a153fa9bdf.ctex"
+uid="uid://burcmj57gf00q"
+path="res://.godot/imported/Game Boy Advance - The Legend of Zelda The Minish Cap - South Hyrule Field.png-d967bedf5ae4defa70892593cb7a7375.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game Boy Advance - Metroid Zero Mission - Samus Aran Power Suit.png"
-dest_files=["res://.godot/imported/Game Boy Advance - Metroid Zero Mission - Samus Aran Power Suit.png-e727185fa8f37f8e749f07a153fa9bdf.ctex"]
+source_file="res://Sprites/Game Boy Advance - The Legend of Zelda The Minish Cap - South Hyrule Field.png"
+dest_files=["res://.godot/imported/Game Boy Advance - The Legend of Zelda The Minish Cap - South Hyrule Field.png-d967bedf5ae4defa70892593cb7a7375.ctex"]
 
 [params]
 
