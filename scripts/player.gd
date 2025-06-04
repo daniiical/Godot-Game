@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 
 var movement = Vector2()
-var speed = 500
+var speed = 300
 
 
 @onready var anim = $samus_anim
