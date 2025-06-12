@@ -30,3 +30,5 @@ func play_anim(dir):
 		if dir.x == -1:
 			$AnimatedSprite2D.play("w_walk")
 			
+func player():
+	pass
